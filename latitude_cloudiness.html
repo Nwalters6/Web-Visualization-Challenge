@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html land="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Web Visualization Weather Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="example-navbar-collapse-one" aria-expanded="false">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Latitude</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="example-navbar-collapse-one">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visualization <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="latitude_temperature.html">Lattitude vs Max Temperature</a></li>
+                            <li><a href="latitude_humidity.html">Lattitude vs Humidity</a></li>
+                            <li><a href="latitude_cloudiness.html">Lattitude vs Cloudiness</a></li>
+                            <li><a href="latitude_windspeed.html">Lattitude vs Wind Speed</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="index.html">Home</a></li>
+                        </ul>
+                    </li> 
+                    <li><a href="comparison.html">Comparison</a></li>
+                    <li><a href="data.html">Data</a></li>
+                </ul>      
+            </div>
+        </div>
+    </nav>
+    <!-- Making the Grid -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 pad"> <br>
+                <h1>Lattitude VS Cloudiness</h1> <br>
+                <div class="pull-left">
+                    <img src="images/city_lat_cloudiness.png" alt="Lattitude vs. Cloudiness">
+                </div>
+            </div>
+
+            <div class="col-md-4 pad top"><br>
+
+                <h3>Observations</h3>
+
+                <div class="pull-left">
+                    <p>On Janurary 5th, 2017 cloudiness appeared to be fairly even 
+                        around the globe. Majority of the Cities, had 0% cloudiness while there were 4 locations that had 100% cloudiness. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</html>
